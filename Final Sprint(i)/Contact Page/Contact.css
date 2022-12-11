@@ -1,0 +1,104 @@
+body {
+  background-color: aliceblue;
+}
+
+#Logo {
+  position: absolute;
+  width: 101px;
+  height: 87px;
+  left: 13px;
+  top: -3px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 87px;
+
+  color: #000000;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.42);
+}
+
+#Buttons {
+  display: flex;
+  justify-content: right;
+  padding-top: 30px;
+  padding-right: 20px;
+}
+
+#Buttons #Bone {
+  text-decoration: none;
+  padding-right: 20px;
+  color: rgb(0, 0, 0);
+}
+
+#Buttons #Btwo {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+#Buttons #Bthree {
+  text-decoration: none;
+  padding-left: 20px;
+  color: rgb(0, 0, 0);
+}
+
+#info {
+  text-align: center;
+  font-size: 30px;
+}
+
+#marginName {
+  margin-top: 100px;
+}
+
+.links {
+  align-items: center;
+  padding: 20px;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links a {
+  color: black;
+
+  padding: 16px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 600px;
+
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+
+  border: 3px solid black;
+  box-shadow: 8px 8px 0px;
+
+  transition: 0.2s all;
+}
+.Links:hover {
+  box-shadow: none;
+
+  transform: translate(8px, 8px);
+}
+.Links {
+  margin-right: 70px;
+}
+
+.btn:hover {
+  box-shadow: none;
+
+  transform: translate(8px, 8px);
+}
+
+.btn {
+  margin-right: 70px;
+}
+
+.output {
+  margin-right: 70px;
+}

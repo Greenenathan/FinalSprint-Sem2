@@ -1,0 +1,67 @@
+body {
+  background-color: aliceblue;
+}
+
+#Logo {
+  position: absolute;
+  width: 101px;
+  height: 87px;
+  left: 13px;
+  top: -3px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 87px;
+
+  color: #000000;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.42);
+}
+
+#Buttons {
+  display: flex;
+  justify-content: right;
+  padding-top: 30px;
+  padding-right: 20px;
+}
+
+#Buttons #Bone {
+  text-decoration: none;
+  padding-right: 20px;
+  color: rgb(0, 0, 0);
+}
+
+#Buttons #Btwo {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+#Buttons #Bthree {
+  text-decoration: none;
+  padding-left: 20px;
+  color: rgb(0, 0, 0);
+}
+
+#Name {
+  padding-left: 3%;
+  padding-top: 7%;
+  font-size: 1000%;
+  text-align: left;
+  line-height: 90%;
+}
+
+#textone {
+  padding-left: 4%;
+  padding-left: 3%;
+  text-align: left;
+  margin-top: -80px;
+}
+
+#texttwo {
+  text-align: right;
+  padding-top: 8%;
+  padding-right: 4%;
+  padding-left: 3%;
+  max-width: 100%;
+}
